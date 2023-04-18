@@ -49,6 +49,16 @@ $hotels = [
     <title>Hotel</title>
 </head>
 <body>
- 
+    <h1>HOTELS</h1>
+ <?php
+  foreach($hotels as $hotel) {
+      
+      foreach($hotel as $info){
+        echo "{$info} <br>";
+      }
+   } 
+ ?> 
+
+
 </body>
 </html>
